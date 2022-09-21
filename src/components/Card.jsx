@@ -1,13 +1,12 @@
 import React from "react";
 
 import chartData from "../components/data.json";
-import Bar from "./Bar";
 
 const Card = () => {
   return (
     <div>
       <div className="flex justify-center">
-        <div className="w-[350px] h-[110px] md:w-[500px] md:h-[110px] rounded-xl orangePink mt-16 md:mt-20 duration-300">
+        <div className="w-[350px] h-[110px] md:w-[500px] md:h-[110px] rounded-xl orangePink mt-36 md:mt-36 duration-300">
           <p className="mt-5 mb-1 ml-8 text-white">My balance</p>
           <h1 className="inline text-white text-3xl ml-8 pt-1 font-bold">
             $921.48
